@@ -1,0 +1,63 @@
+body {
+    background-color: #000000; /* Color de fondo general para la página */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+h2 {
+    font-size: 28px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.table {
+    margin-bottom: 50px;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f1f1f1;
+}
+
+.table-dark {
+    background-color: #343a40;
+    color: white;
+}
+
+label {
+    font-size: 18px;
+    color: #333;
+}
+
+input {
+    font-size: 16px;
+    padding: 10px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+form {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.container {
+    background-color: #000000;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para darle formalidad */
+}
+
